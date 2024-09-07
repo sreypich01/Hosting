@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+nav{
+    display: flex;
+    background-color: rgb(83, 137, 255);
+    flex: 0.5;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.Active{
+    background-color: bisque;
+    padding: 15px;
+}
+a:hover{
+    background-color: bisque;
+    padding: 15px;
+}
+header{
+    background-color: rgb(255, 166, 0);
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex: 5;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+.card{
+    background-color: rgb(83, 137, 255);
+    width: 30%;
+    
+
+}
+.full-card{
+    width: 93%;
+}
+table{
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+}
+caption{
+    font-size: 40px;
+}
+
+td,th{
+    text-align: center;
+    color: white;
+}
+th{
+    padding: 10px;
+    border-bottom: 1px solid;
+}
+th:nth-child(1),td:nth-child(1){
+    background-color: rgb(147, 188, 235);
+}
+th:nth-child(2),td:nth-child(2){
+    background-color: rgb(34, 122, 223);
+}
+th:nth-child(3),td:nth-child(3){
+    background-color: rgb(36, 111, 197);
+}
+th:nth-child(4),td:nth-child(4){
+    background-color: rgb(0, 94, 201);
+}
